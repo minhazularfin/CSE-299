@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/roads_2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.TypeSelectActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_who_you_are"
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/proceed_as_rider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/button"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/i_m_a_Customer"
+        android:textColor="@color/dark" />
+
+    <Button
+        android:id="@+id/proceed_as_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/button"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/i_m_a_shipper"
+        android:textColor="@color/dark" />
+
+</LinearLayout>

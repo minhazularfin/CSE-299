@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">ShipBid</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_id">Enter email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="i_m_a_shipper">I am a Shipper</string>
+    <string name="i_m_a_Customer">I am a Customer</string>
+    <string name="choose_who_you_are">Who are you?</string>
+    <string name="full_name">Full name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="go_back">Go Back</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="Shipbid">ShipBid</string>
+    <string name="pickup_point">Pickup point</string>
+    <string name="destination">Destination</string>
+    <string name="find_a_shipper">Find a shipper</string>
+    <string name="use_current_location">Use current location</string>
+    <string name="pickup">Pickup</string>
+    <string name="container">Container</string>
+    <string name="long_ship">Long Ship</string>
+    <string name="select_shipping_type">Select shipping type:</string>
+    <string name="where_are_you_leaving_from">Where are you leaving from?</string>
+    <string name="enter_address">Enter address</string>
+    <string name="search_rider">Continue</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="Ships">Ships</string>
+    <string name="find">Find</string>
+    <string name="create">Create</string>
+    <string name="inbox">Inbox</string>
+    <string name="profile">Profile</string>
+    <string name="email">Email</string>
+    <string name="n_a">N/A</string>
+    <string name="log_out">Log Out</string>
+    <string name="exit_title">Exit</string>
+    <string name="exit_message">Are you sure to exit?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_location">confirm location</string>
+    <string name="number_of_items">Number of items</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="_0">0</string>
+    <string-array name="time">
+        <item>Any Time</item>
+        <item>12:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+</resources>

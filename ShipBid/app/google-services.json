@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "571495659007",
+    "firebase_url": "https://my-awesome-project-bd64d.firebaseio.com",
+    "project_id": "my-awesome-project-bd64d",
+    "storage_bucket": "my-awesome-project-bd64d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571495659007:android:3017076bd720f302",
+        "android_client_info": {
+          "package_name": "com.nsu.riderx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571495659007-iapgqg30j4jcu8r0a393tvljvrl2icq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nsu.riderx",
+            "certificate_hash": "3489ea423ab57bdc353c46feaa84f67200e5b812"
+          }
+        },
+        {
+          "client_id": "571495659007-r2uuvdkq7ckg3gmvdiepe2i2o4uce47g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nsu.riderx",
+            "certificate_hash": "4ecd94edbf988d3665a6a160ce12b85ad90d3097"
+          }
+        },
+        {
+          "client_id": "571495659007-ds9vagqls388v1nu5v4s5kvl3jvs6iov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV37h1rWFHvcfZYv8mgj9q629vM9kB-pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571495659007-ds9vagqls388v1nu5v4s5kvl3jvs6iov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

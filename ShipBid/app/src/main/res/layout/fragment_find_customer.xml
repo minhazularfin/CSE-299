@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/roads_1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="80dp"
+            android:gravity="center"
+            android:text="@string/where_are_you_leaving_from"
+            android:textColor="@color/dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/driver_leaving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="80dp"
+            android:hint="@string/enter_address"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/dark"
+            android:textColorHint="@color/dark"
+            android:theme="@style/EditText"
+            tools:targetApi="o" />
+
+        <Spinner
+            android:id="@+id/time_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="80dp"
+            android:entries="@array/time"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/driver_use_current_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="80dp"
+            android:background="@color/colorPrimaryDark"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/use_current_location"
+            android:textColor="@color/dark" />
+
+        <Button
+            android:id="@+id/driver_find_rider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="80dp"
+            android:background="@color/colorPrimary"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/search_rider"
+            android:textColor="@color/dark" />
+    </LinearLayout>
+</ScrollView>
